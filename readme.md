@@ -6,13 +6,24 @@
     - Front End
         1. html
         2. css (bootstrap)
+        3. javascript
 
     - Back End
         1. php
         2. mysql
 
+
     - Patrones de diseño
         1. MVC
+
+    - Requerimientos principales
+        1. Gestor de silabos Unsaac
+        2. Seguimiento de asistencia de docentes
+
+    - Requerimientos secundarios
+        1. Registrar la subida de  carga academica al sistema de forma automatizada
+        2. Registrar silabo por medio de un formulario automatizado que genere un pdf de forma automatica
+        3. Registrar la asistencia del docente de forma automatizada
 
 ## Vistas
 
@@ -21,25 +32,26 @@
 .....
 <br>
 <b>Login (Para docente, director de escuela y administrador)</b>
+
 [![login.jpg](https://i.postimg.cc/Njq7hwJ7/login.jpg)](https://postimg.cc/PPy8Z0kP)
 .....
-<br>
+
 <b>Home docente</b>
 [![home-Docente.jpg](https://i.postimg.cc/d0W5cxTs/home-Docente.jpg)](https://postimg.cc/wtmXhFVZ)
 .....
-<br>
+
 <b>Home director</b>
 [![directo-Es.jpg](https://i.postimg.cc/44jF3q2n/directo-Es.jpg)](https://postimg.cc/7bMNssky)
 .....
-<br>
+
 <b>Seguimiento de silabos</b>
 [![seguimeinto-Silabos.jpg](https://i.postimg.cc/FHNpd4yF/seguimeinto-Silabos.jpg)](https://postimg.cc/xcpMhBpB)
 .....
-<br>
+
 <b>Seguimiento de asistencia de docentes</b>
 [![seguimiento-Asistencias-Docentes.jpg](https://i.postimg.cc/BZ22xzQj/seguimiento-Asistencias-Docentes.jpg)](https://postimg.cc/hhPJnpmn)
 .....
-<br>
+
 <b>Subir carga academica (con CSV)</b>
 [![Subir-Carga-Academica.jpg](https://i.postimg.cc/qvvnHMcK/Subir-Carga-Academica.jpg)](https://postimg.cc/jLBCzTFq)
 .....
