@@ -1,0 +1,58 @@
+main .container .carga{
+    background-color:#2a2929;
+    padding: 0;
+    margin: 0;
+}
+main .container .carga table{
+    border-collapse: collapse;
+}
+main .container .carga table,
+main .container .carga table th,
+main .container .carga table td{
+    color: white;
+    padding: 12px 8px;
+    font-size: 14px;
+}
+main .container .carga table thead tr .mas-info,
+main .container .carga table tbody tr .mas-info{
+    display: none;
+}
+
+main .container .carga table th{
+    font-weight: bolder;
+    text-align: left;
+    border-bottom: solid 1px #171716;
+}
+
+main .container .carga table tbody tr:nth-child(even){
+    background-color: #383737;
+}
+
+main .container .carga table tbody tr:hover{
+    background-color:#61580e;
+}
+
+@media (max-width: 1200px) {
+    main .container .carga table thead tr .min1200px,
+    main .container .carga table tbody tr .min1200px{
+        display: none;
+    }
+}
+@media (max-width: 993px) {
+    main .container .carga table thead tr .min993px,
+    main .container .carga table tbody tr .min993px{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    main .container .carga table thead tr .opcional,
+    main .container .carga table tbody tr .opcional{
+        display: none;
+    }
+}
+@media (max-width: 453px) {
+    main .container .carga table thead tr .final,
+    main .container .carga table tbody tr .final{
+        display: none;
+    }
+}

@@ -1,0 +1,93 @@
+/* VARIABLES*/
+:root{
+    --color-principal:rgb(123,21,35);
+    --color-alpha-principal:rgb(157, 25, 43);
+    --color-secundario:#211D1A;
+    --color-alpha-secundario:#62554d;
+    --color-alpha-white:#bbb1b1;
+    --color-alpha-white-v2: #323232;
+}
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-secundario)
+}
+hr {
+    height: 1px;
+    border-color: rgb(255, 255, 255);
+}
+.btn-editado{
+    transition: all 0.3s ease-in-out;
+}
+.btn-editado:hover{
+    background-color: var(--color-alpha-principal);
+    color: white;
+}
+.img-logo{
+    max-width: 80px;
+}
+.bg-principal{
+    background-color: var(--color-principal);
+}
+.bg-secundario{
+    background-color: var(--color-secundario);
+}
+.bg-white-alpha{
+    background-color: var(--color-alpha-white);
+}
+.bg-white-alpha-v2{
+    background-color: var(--color-alpha-white-v2);
+}
+.text-color-principal{
+    color: var(--color-alpha-principal);
+}
+.text-color-secundario{
+    color: var(--color-alpha-secundario);
+}
+.text-color-white{
+    color:rgb(208, 197, 197);
+}
+.text-color-white-alpha{
+    color: var(--color-alpha-white);
+}
+.img-fondo{
+    background-image: url(../img/header_unsaac.jpg);
+    opacity: 0.1;
+    z-index: -9;
+}
+.titulo-header{
+    font-size: 110%;
+}
+.nav-item{
+    transition: all 0.3s ease-in-out;
+}
+.nav-item:hover{
+    color: #000000;
+    background-color: var(--color-alpha-principal);
+    padding-right: 4px;
+}
+.border-editado{
+    border: 2px solid var(--color-alpha-white);
+    border-radius: 10px;
+}
+.heightVacio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+label[for="nuestroinput"] {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 15px 40px !important;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+    }
